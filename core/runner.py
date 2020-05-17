@@ -61,8 +61,8 @@ class runner(threading.Thread):
             accelerate bruteforce __run__()
         '''
         if(sys.version_info >= (2, 0)):
-            import queue
-            q = queue.Queue()
+            import Queue
+            q = Queue.Queue()
 
         elif(sys.version_info <= (3, 0)):
             import Queue
